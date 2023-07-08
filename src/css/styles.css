@@ -4,6 +4,48 @@
   | default @import url()
   |============================
 */
+@font-face {
+  font-family: 'DM sans', sans-setif;
+  src: url(../fonts/DMSans-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM sans', sans-setif;
+  src: url(../fonts/DMSans-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DM sans', sans-setif;
+  src: url(../fonts/DMSans-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM sans', sans-setif;
+  src: url(../fonts/DMSans-MediumItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DM sans', sans-setif;
+  src: url(../fonts/DMSans-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM sans', sans-setif;
+  src: url(../fonts/DMSans-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -24,4 +66,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'DM sans', sans-serif;
+  font-weight: 400;
 }
