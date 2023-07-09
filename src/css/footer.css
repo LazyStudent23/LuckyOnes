@@ -229,3 +229,22 @@ li {
     height: 28px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .footer-content {
+    max-width: 1280px;
+    gap: 166px;
+  }
+  .footer-logo-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 166px;
+  }
+  .footer-logo {
+    margin-bottom: 0;
+  }
+  .footer-social {
+    margin-bottom: 40px;
+  }
+}
