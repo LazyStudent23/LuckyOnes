@@ -4,15 +4,15 @@
   | default @import url()
   |============================
 */
-@import 'reset.css';
-@import 'header.css';
-@import 'hero.css';
-@import 'easy steps.css';
-@import 'how it works.css';
-@import 'vegetables.css';
-@import 'we will call you.css';
-@import 'footer.css';
-@import 'your order.css';
+@import './reset.css';
+@import './header.css';
+@import './hero.css';
+@import './easy steps.css';
+@import './how it works.css';
+@import './vegetables.css';
+@import './we will call you.css';
+@import './footer.css';
+@import './your order.css';
 
 @font-face {
   font-family: 'DM sans', sans-setif;
