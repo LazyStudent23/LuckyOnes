@@ -137,6 +137,15 @@
   padding-left: 24px;
   outline: transparent;
 }
+.input-input::placeholder {
+  color: rgba(20, 20, 20, 0.5);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+}
 .form-checkbox-item {
   position: relative;
   justify-content: space-between;
@@ -174,7 +183,7 @@
   height: 132px;
   resize: none;
   width: 100%;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   background-color: transparent;
@@ -182,6 +191,15 @@
   outline: transparent;
   resize: none;
   margin-bottom: 16px;
+}
+.comment-textarea::placeholder {
+  color: rgba(20, 20, 20, 0.5);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
 }
 .comment-textarea:hover,
 .comment-textarea:focus {
