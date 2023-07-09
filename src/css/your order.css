@@ -258,7 +258,7 @@
     padding: 40px;
     max-width: 890px;
     width: calc(100% - 64px);
-    background-image: url(/src/img/your_order/modal_girl.png);
+    background-image: url(../img/your_order/modal_girl.png);
     background-position: right bottom;
     background-repeat: no-repeat;
   }
@@ -311,7 +311,7 @@
     padding: 40px;
     max-width: 891px;
     width: calc(100% - 64px);
-    background-image: url(/src/img/your_order/modal_girl_desk.png);
+    background-image: url(../img/your_order/modal_girl_desk.png);
     background-position: right bottom;
     background-repeat: no-repeat;
   }
