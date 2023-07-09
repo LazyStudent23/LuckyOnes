@@ -1,0 +1,115 @@
+.vegetables {
+}
+.vegetables-container {
+  max-width: 335px;
+  /* padding: 0 20px; */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.organic-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+.organic-title {
+  color: #141414;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+}
+.vegetable-text {
+  color: #141414;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+}
+.vegetables-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.vegetable-item {
+  background-color: #eaf7e5;
+  width: 100%;
+  border-radius: 5%;
+}
+.vegetable-title-card {
+  color: #141414;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  margin-top: 40px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+.vegetable-card-text {
+  color: #141414;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.vegetable-link {
+}
+.vegetable-img-carrot {
+  margin-left: 18px;
+  margin-right: 25px;
+}
+.vegetable-img-brussel {
+  margin-left: 51px;
+  margin-right: 54px;
+}
+.vegetable-img-tomato {
+  margin-top: 52px;
+  margin-left: 18px;
+  margin-right: 30px;
+}
+.vegetable-shadow {
+  fill: #141414;
+  opacity: 0.10000000149011612;
+  filter: blur(13.591408729553223px);
+  max-height: 38px;
+  margin: -12px 74px 22px 66px;
+}
+.vegetable-shadow-brussel {
+  fill: #141414;
+  opacity: 0.10000000149011612;
+  filter: blur(13.591408729553223px);
+  max-height: 38px;
+  margin: -23px 54px 22px 50px;
+}
+
+.price-text {
+  color: #141414;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.list {
+  list-style: none;
+}
+.order-btn {
+}
+.order-icon {
+}
