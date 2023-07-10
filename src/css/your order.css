@@ -117,6 +117,7 @@
 .x-button:focus {
   border: none;
   background-color: rgba(252, 138, 17, 1);
+  border-radius: 4px;
 }
 
 .order-form {
