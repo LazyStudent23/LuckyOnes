@@ -1,13 +1,10 @@
-body {
-  font-family: 'DM Sans', sans-serif;
-}
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 1280px;
+  max-width: 375px;
   width: 100%;
 }
-.steps {
+.steps-section {
   padding: 80px 0;
 }
 .steps-container {
@@ -19,7 +16,7 @@ body {
   background-color: #faf3e7;
   background-repeat: repeat;
   background-position: -18px -18px;
-  background-size: 51px;
+  background-size: 46px;
   border-radius: 40px;
   margin-top: 80px;
   gap: 20px;
@@ -31,7 +28,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.16;
-  letter-spacing: -0.96px;
+  letter-spacing: -0.06em;
   text-transform: uppercase;
   padding-top: 40px;
 }
@@ -60,7 +57,7 @@ body {
   max-width: 225px;
 }
 .steps-text {
-  max-width: 176px;
+  max-width: 168px;
   color: #141414;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 14px;
@@ -89,7 +86,6 @@ body {
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
-    /* padding: 0px 20px; */
   }
 }
 /*==================TABLET MEDIA==================*/
@@ -98,14 +94,17 @@ body {
     max-width: 768px;
     padding: 0px 32px;
   }
+  .steps-section {
+    padding-top: 100px;
+  }
 
   .steps-container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: flex-start;
-    background-position: -23px -17px;
-    background-size: 50px;
+    background-position: -13px -17px;
+    background-size: 43px;
     gap: 40px;
     padding-top: 40px;
     margin-top: 60px;
@@ -115,6 +114,7 @@ body {
     font-size: 28px;
     line-height: 1.14;
     letter-spacing: -0.07em;
+    padding-top: 20px;
   }
   .photo-girl {
     flex-shrink: 0;
@@ -128,7 +128,7 @@ body {
   .steps-table {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
   }
   .steps-item {
     max-width: 221px;
@@ -139,6 +139,11 @@ body {
   .container {
     max-width: 1280px;
   }
+
+  .steps-section {
+    padding-top: 124px;
+  }
+
   .steps-container {
     width: 100%;
     padding-top: 40px;
@@ -168,6 +173,6 @@ body {
     max-width: 219px;
   }
   .steps-text {
-    width: 349px;
+    max-width: 349px;
   }
 }
