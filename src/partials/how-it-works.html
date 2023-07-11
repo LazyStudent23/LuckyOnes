@@ -16,9 +16,21 @@
                     </li>
                 </ol>
             </div>
-            <img srcset="../img/how-it-works/steps-girl-mob.png 1x, ../img/how-it-works/steps-girl-mob@2x.png 2x"
-                src="../img/how-it-works/steps-girl-mob.png" alt="girl-with-vegetables" width="335px" height="158px"
-                class="photo-girl"></img>
+            <picture class="steps-image">
+                <source srcset="
+                            ./img/how-it-works/steps-girl-mob.png    1x,
+                            ./img/how-it-works/steps-girl-mob@2x.png 2x
+                          " media="(max-width: 767.98px)" type="image/png" />
+                <source srcset="
+                            ./img/how-it-works/steps-girl-tab.png    1x,
+                            ./img/how-it-works/steps-girl-tab@2x.png 2x
+                          " media="(min-width: 768px)" type="image/png" />
+                <source srcset="
+                            ./img/how-it-works/steps-girl-desk.png    1x,
+                            ./img/how-it-works/steps-girl-desk@2x.png 2x
+                          " media="(min-width: 1280px)" type="image/png" />
+                <img src="./img/how-it-works/steps-girl-mob.png" alt="girl-with-vegetables" class="photo-girl" />
+            </picture>
         </div>
     </div>
 </section>
