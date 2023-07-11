@@ -1,5 +1,6 @@
 .checkbox-list {
   list-style: none;
+  margin-bottom: 40px;
 }
 .visually-hidden {
   position: absolute;
@@ -15,21 +16,18 @@
 }
 .checkbox-list h3 {
   color: #141414;
-  font-family: 'DM Sans', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
   letter-spacing: -0.72px;
   padding-bottom: 2px;
 }
 .checkbox-list p {
   color: #141414;
-  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.29;
   letter-spacing: -0.28px;
 }
 .item-text-div {
@@ -42,7 +40,6 @@
   height: 100%;
   width: 100%;
   background-color: rgba(234, 247, 229, 0.4);
-  /* transition: opacity var(--transition), visibility var(--transition); */
 }
 .modal {
   padding: 20px;
@@ -50,13 +47,11 @@
   transform: translate(-50%, -50%) rotate(0) scale(1);
   top: 50%;
   left: 50%;
-  max-width: 408px;
+  max-width: 335px;
   width: calc(100% - 40px);
-  /* min-height: 903px; */
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  /* transition: transform var(--transition); */
   border-radius: 20px;
 }
 .backdrop.is-hidden .modal {
@@ -65,18 +60,15 @@
 
 .form-head {
   color: #141414;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  font-family: 'DM Sans', sans-serif;
+  /* text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1); */
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px;
   letter-spacing: -1.12px;
   text-transform: uppercase;
   padding-bottom: 40px;
 }
 .modal-button {
-  margin-top: 24px;
   min-width: 92px;
   height: 42px;
   padding: 12px 24px;
@@ -87,10 +79,8 @@
   cursor: pointer;
   border: none;
   color: #fff;
-  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
+  line-height: 1.29;
   letter-spacing: -0.56px;
   text-transform: capitalize;
 }
@@ -131,8 +121,10 @@
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 100px;
   height: 46px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
   width: 100%;
-  font-family: 'DM Sans', sans-serif;
   color: #000000;
   background-color: transparent;
   padding-left: 24px;
@@ -140,11 +132,8 @@
 }
 .input-input::placeholder {
   color: rgba(20, 20, 20, 0.5);
-  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
+  line-height: 1.29;
   letter-spacing: -0.56px;
 }
 .form-checkbox-item {
@@ -155,7 +144,7 @@
   width: 100%;
   border-radius: 20px;
   background-color: rgba(250, 243, 231, 1);
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   padding: 20px 30px 8px 20px;
 }
 
@@ -173,11 +162,9 @@
 
 .comment-textarea {
   color: rgba(20, 20, 20, 0.5);
-  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.29;
   letter-spacing: -0.56px;
   border: 1px solid rgba(20, 20, 20, 0.3);
   border-radius: 20px;
@@ -191,27 +178,25 @@
   padding: 14px 24px;
   outline: transparent;
   resize: none;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 .comment-textarea::placeholder {
   color: rgba(20, 20, 20, 0.5);
-  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.29;
   letter-spacing: -0.56px;
 }
 .comment-textarea:hover,
 .comment-textarea:focus {
   border-color: rgba(252, 138, 17, 1);
 }
-.check-label {
+/* .check-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-}
+} */
 .modal-button:hover,
 .modal-button:focus {
   background: #a1c487;
@@ -269,13 +254,13 @@
 @media (min-width: 768px) and (max-width: 1279px) {
   .form-head {
     font-size: 40px;
-    line-height: 44px;
+    line-height: 1.1;
     letter-spacing: -1.6px;
     padding-bottom: 40px;
   }
   .modal {
     padding: 40px;
-    max-width: 890px;
+    max-width: 704px;
     width: calc(100% - 64px);
     background-image: url(../img/your_order/modal_girl.png);
     background-position: right bottom;
@@ -316,7 +301,7 @@
   .checkbox-list h3 {
     font-size: 24px;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 1.17;
     letter-spacing: -0.96px;
     padding-bottom: 8px;
   }
