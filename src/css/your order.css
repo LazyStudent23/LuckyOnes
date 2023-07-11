@@ -282,7 +282,7 @@
   .order-img {
     width: 172px;
     height: 142px;
-    margin: 14px auto;
+    margin: 6px 14px 14px 14px;
   }
   .item-text-div {
     width: 100%;
@@ -335,8 +335,8 @@
   .order-img {
     width: 243px;
     height: 200px;
-    padding: 14px;
-    margin: 7px auto;
+    /* padding: 7px; */
+    margin: -4px auto 0 auto;
   }
   .item-text-div {
     width: 100%;
