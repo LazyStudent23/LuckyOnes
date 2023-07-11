@@ -93,58 +93,40 @@
 }
 .vegetable-shadow {
   fill: #141414;
-  opacity: 0.10000000149011612;
-  filter: blur(13.591408729553223px);
   margin: -12px 74px 22px 66px;
 }
 .vegetable-shadow-brussel {
   fill: #141414;
-  opacity: 0.10000000149011612;
-  filter: blur(13.591408729553223px);
   margin: -23px 72px 22px 68px;
 }
 .vegetable-shadow-tomato {
   fill: #141414;
-  opacity: 0.10000000149011612;
-  filter: blur(13.591408729553223px);
   margin: 19px 72px 22px 68px;
 }
 
 .vegetable-shadow-eggplant {
   fill: #141414;
-  opacity: 0.10000000149011612;
-  filter: blur(13.591408729553223px);
   margin: 10px 72px 22px 68px;
 }
 .vegetable-shadow-potatoes {
   fill: #141414;
-  opacity: 0.10000000149011612;
-  filter: blur(13.591408729553223px);
   margin: 14px 72px 22px 68px;
 }
 .vegetable-shadow-leek {
   fill: #141414;
-  opacity: 0.10000000149011612;
-  filter: blur(13.591408729553223px);
   margin: 15px 71px 22px 69px;
 }
 .vegetable-shadow-mushrooms {
   fill: #141414;
-  opacity: 0.10000000149011612;
-  filter: blur(13.591408729553223px);
   margin: 16px 72px 22px 68px;
 }
 .vegetable-shadow-corn {
   fill: #141414;
-  opacity: 0.10000000149011612;
-  filter: blur(13.591408729553223px);
   margin: 12px 74px 18px 66px;
 }
 .vegetable-shadow-radish {
   fill: #141414;
-  opacity: 0.10000000149011612;
-  filter: blur(13.591408729553223px);
-  margin: 18px 99.5px 29px 94.5px;
+  margin: 0 99.5px 18px 94.5px;
 }
 .price-text {
   color: #141414;
@@ -365,28 +347,28 @@
     }
 
     .vegetable-shadow {
-      margin: -22px 97px 52px 97px;
+      margin: -32px 97px 32px 97px;
     }
     .vegetable-shadow-brussel {
-      margin: -43px 80px 66px 67px;
+      margin: -43px 80px 36px 67px;
     }
     .vegetable-shadow-tomato {
-      margin: 0 102px 50px 92px;
+      margin: -4px 102px 25px 92px;
     }
     .vegetable-shadow-eggplant {
-      margin: -6px 97px 57px 97px;
+      margin: -10px 97px 32px 97px;
     }
     .vegetable-shadow-potatoes {
-      margin: -13px 98.5px 58px 95.5px;
+      margin: -18px 98.5px 32px 95.5px;
     }
     .vegetable-shadow-leek {
-      margin: -1px 102.5px 47px 91.5px;
+      margin: -13px 102.5px 30px 91.5px;
     }
     .vegetable-shadow-mushrooms {
-      margin: 0 98.5px 47px 95.5px;
+      margin: -14px 98.5px 32px 95.5px;
     }
     .vegetable-shadow-corn {
-      margin: -4px 107.5px 45px 86.5px;
+      margin: -18px 107.5px 30px 86.5px;
     }
     .price-text {
       font-size: 18px;
