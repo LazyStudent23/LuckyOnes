@@ -57,6 +57,13 @@
 }
 
 :root {
+  --color-text: #141414;
+  --default-color: #fff;
+  --secondary-color: #EAF7E5;
+  --color-buttons: #FC8A11;
+  --primary-color: #A1C487;
+  --background-cards-modal: #FAF3E7;
+  
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
