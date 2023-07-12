@@ -1,0 +1,349 @@
+.checkbox-list {
+  list-style: none;
+  margin-bottom: 40px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.checkbox-list h3 {
+  color: #141414;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.72px;
+  padding-bottom: 2px;
+}
+.checkbox-list p {
+  color: #141414;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
+}
+.item-text-div {
+  width: 160px;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(234, 247, 229, 0.4);
+}
+.modal {
+  padding: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(0) scale(1);
+  top: 50%;
+  left: 50%;
+  max-width: 335px;
+  width: calc(100% - 40px);
+  background: #fcfcfc;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) rotate(0deg) scale(1);
+}
+
+.form-head {
+  color: #141414;
+  /* text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1); */
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -1.12px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+.modal-button {
+  min-width: 92px;
+  height: 42px;
+  padding: 12px 24px;
+  color: #ffffff;
+  background: rgba(252, 138, 17, 1);
+  border-radius: 20px;
+  align-self: flex-start;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+  text-transform: capitalize;
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.x-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 22px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.x-button:hover,
+.x-button:focus {
+  border: none;
+  background-color: rgba(252, 138, 17, 1);
+  border-radius: 4px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+}
+.form-input-item {
+  margin-bottom: 14px;
+}
+.input-input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 100px;
+  height: 46px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+  width: 100%;
+  color: #000000;
+  background-color: transparent;
+  padding-left: 24px;
+  outline: transparent;
+}
+.input-input::placeholder {
+  color: rgba(20, 20, 20, 0.5);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+}
+.form-checkbox-item {
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 20px;
+  background-color: rgba(250, 243, 231, 1);
+  margin-bottom: 12px;
+  padding: 20px 30px 8px 20px;
+}
+
+.input-input:hover,
+.input-input:focus {
+  border-color: rgba(252, 138, 17, 1);
+}
+
+.input-input:focus-within {
+  border-color: rgba(252, 138, 17, 1);
+}
+.input-div {
+  position: relative;
+}
+
+.comment-textarea {
+  color: rgba(20, 20, 20, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+  border: 1px solid rgba(20, 20, 20, 0.3);
+  border-radius: 20px;
+  height: 132px;
+  resize: none;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  background-color: transparent;
+  padding: 14px 24px;
+  outline: transparent;
+  resize: none;
+  margin-bottom: 20px;
+}
+.comment-textarea::placeholder {
+  color: rgba(20, 20, 20, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+}
+.comment-textarea:hover,
+.comment-textarea:focus {
+  border-color: rgba(252, 138, 17, 1);
+}
+/* .check-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+} */
+.modal-button:hover,
+.modal-button:focus {
+  background: #a1c487;
+}
+.check-svg-square {
+  top: 22px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid rgba(161, 196, 135, 1);
+  border-radius: 4px;
+  fill: transparent;
+  align-items: center;
+  justify-content: center;
+}
+
+.third-checkbox:checked + .check-label > .check-svg-square {
+  background-color: transparent;
+  fill: rgba(161, 196, 135, 1);
+}
+.check-svg-square:hover,
+.third-checkbox:hover + .check-label > .check-svg {
+  border: 1.5px solid rgba(252, 138, 17, 1);
+}
+.second-checkbox:checked + .check-label > .check-svg-square {
+  background-color: transparent;
+  fill: rgba(161, 196, 135, 1);
+}
+.check-svg-square:hover,
+.second-checkbox:hover + .check-label > .check-svg {
+  border: 1.5px solid rgba(161, 196, 135, 1);
+}
+
+.first-checkbox:checked + .check-label > .check-svg-square {
+  background-color: transparent;
+  fill: rgba(161, 196, 135, 1);
+}
+.check-svg-square:hover,
+.first-checkbox:hover + .check-label > .check-svg {
+  border: 1.5px solid rgba(252, 138, 17, 1);
+}
+
+.check-svg-box:hover {
+  border: 1.5px solid rgba(252, 138, 17, 1);
+}
+.order-img {
+  width: 94px;
+  height: 78px;
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .form-head {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    padding-bottom: 40px;
+  }
+  .modal {
+    padding: 40px;
+    max-width: 704px;
+    width: calc(100% - 64px);
+    background-image: url(../img/your_order/modal_girl.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+  .checkbox-list {
+    display: flex;
+    gap: 12px;
+  }
+  .form-checkbox-item {
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0;
+    margin: 0;
+  }
+  .order-img {
+    width: 172px;
+    height: 142px;
+    margin: 6px 14px 14px 14px;
+  }
+  .item-text-div {
+    width: 100%;
+    padding: 40px 20px 0;
+  }
+  .order-list-item {
+    width: 100%;
+    height: 250px;
+  }
+  .order-form {
+    max-width: 360px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .checkbox-list h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -0.96px;
+    padding-bottom: 8px;
+  }
+  .form-head {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+    padding-bottom: 40px;
+  }
+  .modal {
+    padding: 40px;
+    max-width: 891px;
+    width: calc(100% - 64px);
+    background-image: url(../img/your_order/modal_girl_desk.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+  .checkbox-list {
+    display: flex;
+    gap: 20px;
+  }
+  .form-checkbox-item {
+    height: 308px;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0;
+    margin: 0;
+  }
+  .order-img {
+    width: 243px;
+    height: 200px;
+    /* padding: 7px; */
+    margin: -4px auto 0 auto;
+  }
+  .item-text-div {
+    width: 100%;
+    padding: 40px 20px 0;
+  }
+  .order-list-item {
+    width: 100%;
+  }
+  .order-form {
+    max-width: 360px;
+  }
+}
