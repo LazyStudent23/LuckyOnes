@@ -1,3 +1,54 @@
-<header>
-  
+<header class="header">
+  <div class="container header-container">
+    <nav class="header-container-logo">
+      <ul class="header-menu list">
+        <li class="header-menu-item">
+          <a class="header-menu-link link" href="#">How It Works</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link link" href="#">Vegetables</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link link" href="#">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="icon-heder-one">
+      <svg class="icon-header" width="16" height="16">
+        <use href="./img/header-icon.svg#icon-vector"></use>
+      </svg>
+      <a href="#" class="header-logo link">VEGGIEBOOST</a>
+    </div>
+    <a class="basket-btt" href="#"
+      ><button type="button" class="basket-btt">
+        <svg class="basket-icon" width="24" height="24">
+          <use href="./img/header-icon.svg#icon-shopping-cart"></use>
+        </svg></button
+    ></a>
+    <!------------------------------button-menu--------------------------------->
+    <button class="hamb-btt" id="hamb">
+      <svg width="24" height="24">
+        <use href="./img/header-icon.svg#icon-gg_menu-left"></use>
+      </svg>
+    </button>
+  </div>
+  <!----------------------------------menu-------------------------------------->
+  <div class="mob-menu">
+    <ul class="menu" id="menu">
+      <li class="mob-menu-li"><a href="#">How It Works</a></li>
+      <li class="mob-menu-li"><a href="#">Vegetables</a></li>
+      <li class="mob-menu-li"><a href="#">Contacts</a></li>
+      <li class="mob-menu-li">
+        <a href="#"
+          ><button type="button" class="mob-menu-btt">
+            <svg class="mob-menu-icon" width="24" height="24">
+              <use href="./img/header-icon.svg#icon-shopping-cart-2"></use>
+            </svg>
+          </button>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="jshamb" id="jshamb"></div>
 </header>
+<script src="./js/header.js"></script>
