@@ -111,7 +111,7 @@
 @media screen and (min-width: 768px) {
   .callu-container {
     max-width: 768px;
-    margin-bottom: 157px;
+    margin-bottom: 173px;
   }
 
   .callu-title {
@@ -166,7 +166,7 @@
 @media screen and (min-width: 1280px) {
   .callu-container {
     max-width: 1280px;
-    padding: 0;
+    margin-bottom: 124px;
   }
 
   .callu-title {
