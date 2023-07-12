@@ -1,0 +1,218 @@
+.callu-container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.callu-text-container {
+  padding-left: 6px;
+  padding-right: 6px;
+  max-width: 323px;
+}
+.callu-title {
+  color: #141414;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.callu-text {
+  color: #141414;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  margin-bottom: 40px;
+  width: 321px;
+}
+
+.callu-fieldset {
+  display: block;
+  position: relative;
+  width: 335px;
+  overflow: hidden;
+  border: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.callu-input {
+  width: 335px;
+  height: 48px;
+  border-radius: 100px;
+  border: 1px solid #141414;
+  opacity: 0.30000001192092896;
+  padding-left: 24px;
+}
+
+.callu-input::placeholder {
+  color: #c1bdbd;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+}
+
+.callu-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 100px;
+  background: #fc8a11;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  width: 105px;
+  height: 48px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.callu-box-background {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.callu-broccoli-img {
+  width: 335px;
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+}
+
+.callu-desctop-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*-------------TABLET---------------*/
+@media screen and (min-width: 768px) {
+  .callu-container {
+    max-width: 768px;
+    margin-bottom: 173px;
+  }
+
+  .callu-title {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    max-width: 524px;
+  }
+
+  .callu-text {
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -0.72px;
+    max-width: 499px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .callu-text-container {
+    max-width: unset;
+  }
+
+  .callu-input {
+    width: 350px;
+  }
+
+  .callu-button:hover,
+  .callu-button:focus {
+    background: #a1c487;
+  }
+
+  .callu-background-img {
+    width: 704px;
+    height: 463px;
+  }
+
+  .callu-broccoli-img {
+    width: 629px;
+    left: 30px;
+  }
+
+  .callu-desctop-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*-------------DESKTOP---------------*/
+@media screen and (min-width: 1280px) {
+  .callu-container {
+    max-width: 1280px;
+    margin-bottom: 124px;
+  }
+
+  .callu-title {
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: -1.92px;
+    text-align: left;
+    width: 614px;
+  }
+
+  .callu-text {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: -0.72px;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 80px;
+    min-width: 523px;
+  }
+
+  .callu-broccoli-img {
+    width: 525px;
+    left: 0;
+  }
+
+  .callu-background-img {
+    width: 525px;
+    height: 536px;
+  }
+  .callu-text-container {
+    padding: 0;
+  }
+  .callu-desctop-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: unset;
+    gap: 77px;
+  }
+  .callu-desctop-box {
+    align-items: unset;
+    width: 614px;
+  }
+}

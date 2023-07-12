@@ -52,6 +52,10 @@
     padding: 0 32px;
   }
 
+  .easy {
+    padding: 100px 0;
+  }
+
   .box {
     display: flex;
     gap: 8px;
@@ -98,6 +102,10 @@
 
   .box {
     gap: 192px;
+  }
+
+  .easy {
+    padding: 124px 0;
   }
 
   .easy-title {
