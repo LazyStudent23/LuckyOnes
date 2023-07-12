@@ -55,7 +55,7 @@
   border-radius: 20px;
 }
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) rotate(0deg) scale(3);
+  transform: translate(-50%, -50%) rotate(0deg) scale(1);
 }
 
 .form-head {
@@ -269,7 +269,6 @@
   .checkbox-list {
     display: flex;
     gap: 12px;
-    padding-bottom: 40px;
   }
   .form-checkbox-item {
     height: 250px;
@@ -322,7 +321,6 @@
   .checkbox-list {
     display: flex;
     gap: 20px;
-    padding-bottom: 40px;
   }
   .form-checkbox-item {
     height: 308px;
