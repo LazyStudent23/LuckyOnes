@@ -9,8 +9,8 @@
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <script type="module" crossorigin src="/LuckyOnes/assets/index-3bec7e2d.js"></script>
-    <link rel="stylesheet" href="/LuckyOnes/assets/index-9d7355ad.css">
+    <script type="module" crossorigin src="/LuckyOnes/assets/index-e539e872.js"></script>
+    <link rel="stylesheet" href="/LuckyOnes/assets/index-1c596bc6.css">
   </head>
   <body>
     <!-- Dmitriy -->
@@ -179,7 +179,146 @@
 </footer>
 
     <!-- Ігор -->
-    
+    <section>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <h2 class="form-head">Your Order</h2>
+
+      <button class="x-button" data-modal-close type="button">
+        <svg class="x-svg" width="24" height="24">
+          <use href="/LuckyOnes/assets/icons-46a2ab06.svg#icon-x-modal"></use>
+        </svg>
+      </button>
+      <ul class="checkbox-list">
+        <li class="order-list-item">
+          <div class="form-checkbox-item">
+            <div class="item-text-div">
+              <h3>Cabbage Basket</h3>
+              <p>Plant</p>
+            </div>
+            <img
+              class="order-img"
+              alt="photo"
+              srcset="/LuckyOnes/assets/cabbage-7de213c4.png 1x, /LuckyOnes/assets/cabbage2x-6e58e607.png 2x"
+              src="/LuckyOnes/assets/cabbage-7de213c4.png"
+            />
+            <input
+              class="first-checkbox visually-hidden"
+              id="first-checkbox"
+              name="first-checkbox"
+              type="checkbox"
+              value="true"
+            />
+            <label class="check-label" for="first-checkbox">
+              <span class="check-svg-square">
+                <svg class="check-svg" width="16" height="16">
+                  <use href="/LuckyOnes/assets/icons-46a2ab06.svg#icon-check"></use>
+                </svg> </span
+            ></label>
+          </div>
+        </li>
+        <li class="order-list-item">
+          <div class="form-checkbox-item">
+            <div class="item-text-div">
+              <h3>Tomato Basket</h3>
+              <p>Plant</p>
+            </div>
+            <img
+              class="order-img"
+              alt="photo"
+              srcset="/LuckyOnes/assets/tomato-a82a244b.png 1x, /LuckyOnes/assets/tomato2x-cb207272.png 2x"
+              src="/LuckyOnes/assets/tomato-a82a244b.png"
+            />
+            <input
+              class="second-checkbox visually-hidden"
+              id="second-checkbox"
+              name="second-checkbox"
+              type="checkbox"
+              value="true"
+            />
+            <label class="check-label" for="second-checkbox">
+              <span class="check-svg-square">
+                <svg class="check-svg" width="16" height="16">
+                  <use href="/LuckyOnes/assets/icons-46a2ab06.svg#icon-check"></use>
+                </svg> </span
+            ></label>
+          </div>
+        </li>
+        <li class="order-list-item">
+          <div class="form-checkbox-item">
+            <div class="item-text-div">
+              <h3>Vegetables Basket</h3>
+              <p>Plant</p>
+            </div>
+            <img
+              class="order-img"
+              alt="photo"
+              srcset="/LuckyOnes/assets/vegetables-3a19a1bb.png 1x, /LuckyOnes/assets/vegetables2x-6441c167.png 2x"
+              src="/LuckyOnes/assets/vegetables-3a19a1bb.png"
+            />
+            <input
+              class="third-checkbox visually-hidden"
+              id="third-checkbox"
+              name="third-checkbox"
+              type="checkbox"
+              value="true"
+            />
+            <label class="check-label" for="third-checkbox">
+              <span class="check-svg-square">
+                <svg class="check-svg" width="16" height="16">
+                  <use href="/LuckyOnes/assets/icons-46a2ab06.svg#icon-check"></use>
+                </svg> </span
+            ></label>
+          </div>
+        </li>
+      </ul>
+      <form class="order-form" name="order-form">
+        <div class="form-input-item">
+          <input
+            class="input-input"
+            id="user-name"
+            name="user-name"
+            type="text"
+            pattern="[A-Za-z]{1,32} [A-Za-z]{1,32}"
+            placeholder="Enter full name.."
+            required
+          />
+        </div>
+        <div class="form-input-item">
+          <input
+            class="input-input"
+            id="user_card"
+            name="user_card"
+            type="text"
+            pattern="[0-9]{4}[0-9]{4}[0-9]{4}[0-9]{4}"
+            placeholder="Enter card.."
+            required
+          />
+        </div>
+        <div class="form-input-item">
+          <input
+            class="input-input"
+            id="e-mail"
+            name="e-mail"
+            type="email"
+            placeholder="Enter email.."
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            required
+          />
+        </div>
+        <textarea
+          class="comment-textarea"
+          id="comment-textarea"
+          name="comment-textarea"
+          placeholder="Enter comments..."
+        ></textarea>
+
+        <button class="modal-button" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
     
   </body>
 </html>
