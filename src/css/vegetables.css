@@ -34,7 +34,8 @@
 }
 .vegetable-item {
   background-color: #eaf7e5;
-  max-width: 100%;
+  width: 335px;
+  min-height: 443px;
   border-radius: 20px;
 }
 .vegetable-title-card {
@@ -53,13 +54,13 @@
 }
 
 .vegetable-img-carrot {
-  margin: 40px 25px 0 10px;
+  margin: 40px 25px 0 18px;
 }
 .vegetable-img-brussel {
   margin: 36px 54px 0 51px;
 }
 .vegetable-img-tomato {
-  margin: 52px 30px 0 18px;
+  margin: 52px 30px 0 27px;
 }
 .vegetable-img-eggplant {
   margin: 44px 72px 0 69px;
@@ -81,36 +82,36 @@
 }
 .vegetable-shadow {
   fill: #141414;
-  margin: -12px 74px 22px 66px;
+  margin: -31px 74px 6px 66px;
 }
 .vegetable-shadow-brussel {
   fill: #141414;
-  margin: -23px 72px 22px 68px;
+  margin: -43px 72px 15px 68px;
 }
 .vegetable-shadow-tomato {
   fill: #141414;
-  margin: 19px 72px 22px 68px;
+  margin: -5px 72px 15px 68px;
 }
 
 .vegetable-shadow-eggplant {
   fill: #141414;
-  margin: 10px 72px 22px 68px;
+  margin: -25px 72px 16px 68px;
 }
 .vegetable-shadow-potatoes {
   fill: #141414;
-  margin: 14px 72px 22px 68px;
+  margin: -17px 72px 22px 68px;
 }
 .vegetable-shadow-leek {
   fill: #141414;
-  margin: 15px 71px 22px 69px;
+  margin: -16px 71px 22px 69px;
 }
 .vegetable-shadow-mushrooms {
   fill: #141414;
-  margin: 16px 72px 22px 68px;
+  margin: -15px 72px 22px 68px;
 }
 .vegetable-shadow-corn {
   fill: #141414;
-  margin: 12px 74px 18px 66px;
+  margin: -19px 74px 18px 66px;
 }
 .vegetable-shadow-radish {
   fill: #141414;
@@ -133,9 +134,7 @@
 .vegetable-item-radish {
   display: none;
 }
-/* .list {
-  list-style: none;
-} */
+
 .order-btn {
   max-width: 80px;
   height: 80px;
@@ -206,7 +205,7 @@
     flex-direction: row;
   }
   .vegetable-item {
-    max-width: 342px;
+    width: 342px;
     min-height: 465px;
   }
   .vegetable-title-card {
@@ -248,28 +247,28 @@
   }
 
   .vegetable-shadow {
-    margin: -22px 73px 49px 74px;
+    margin: -30px 73px 28px 74px;
   }
   .vegetable-shadow-brussel {
-    margin: -43px 80px 64px 67px;
+    margin: -43px 80px 32px 67px;
   }
   .vegetable-shadow-tomato {
-    margin: 0 78px 50px 69px;
+    margin: -6px 78px 27px 69px;
   }
   .vegetable-shadow-eggplant {
-    margin: -6px 82px 57px 65px;
+    margin: -10px 82px 32px 65px;
   }
   .vegetable-shadow-potatoes {
-    margin: -13px 74px 58px 73px;
+    margin: -17px 74px 32px 73px;
   }
   .vegetable-shadow-leek {
-    margin: -1px 79px 47px 68px;
+    margin: -15px 79px 32px 68px;
   }
   .vegetable-shadow-mushrooms {
-    margin: 0 75px 47px 72px;
+    margin: -14px 75px 32px 72px;
   }
   .vegetable-shadow-corn {
-    margin: -4px 84px 45px 63px;
+    margin: -20px 84px 32px 63px;
   }
 
   .price-text {
@@ -299,7 +298,7 @@
       gap: 24px;
     }
     .vegetable-item {
-      max-width: 389px;
+      width: 389px;
     }
     .vegetable-item-radish {
       display: block;
