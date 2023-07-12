@@ -268,6 +268,7 @@
     flex-direction: row;
     column-gap: 29px;
     padding: 134px 32px 32px 32px;
+    justify-content: center;
   }
 
   .hero-text-content {
