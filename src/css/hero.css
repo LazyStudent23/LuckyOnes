@@ -154,7 +154,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: end;
-  gap: 4px;
+  gap: 3.5px;
 }
 
 .hero-tag {
