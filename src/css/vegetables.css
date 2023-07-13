@@ -35,7 +35,6 @@
 }
 .vegetable-item {
   background-color: #eaf7e5;
-  /* width: 335px; */
   min-height: 443px;
   border-radius: 20px;
 }
@@ -172,6 +171,9 @@
 @media screen and (min-width: 375px) {
   .vegetables-container {
     padding: 0 20px;
+  }
+  .vegetable-item {
+    width: 335px;
   }
   .vegetable-img-carrot {
     margin: 40px 25px 0 18px;
