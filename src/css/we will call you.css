@@ -96,10 +96,16 @@
 }
 
 .callu-broccoli-img {
-  width: 335px;
+  width: 320px;
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: -1;
+}
+
+.callu-background-img {
+  position: relative;
+  z-index: -1;
 }
 
 .callu-desctop-container {
@@ -149,6 +155,8 @@
   .callu-background-img {
     width: 704px;
     height: 463px;
+    position: relative;
+    z-index: -1;
   }
 
   .callu-broccoli-img {
@@ -204,6 +212,8 @@
   .callu-background-img {
     width: 525px;
     height: 536px;
+    position: relative;
+    z-index: -1;
   }
   .callu-text-container {
     padding: 0;
