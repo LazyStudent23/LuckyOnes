@@ -40,16 +40,17 @@
   margin-bottom: -40px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: left;
   margin: 0;
+  padding: 0;
   gap: 21px;
   list-style-position: outside;
 }
 
 .steps-item {
   list-style: none;
-  position: relative;
-  padding-left: 53px;
+  display: flex;
+  align-items: center;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 18px;
   line-height: 1.28;
@@ -57,7 +58,8 @@
   max-width: 275px;
 }
 .steps-text {
-  max-width: 175px;
+  max-width: 190px;
+  padding-left: 14px;
   color: #141414;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 14px;
@@ -69,11 +71,13 @@
   content: counter(myCounter);
   color: #141414;
   background-color: #a1c487;
-  border-radius: 200px;
-  display: block;
-  position: absolute;
+  border-radius: 50%;
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: auto;
+  margin: 0;
   line-height: 38px;
   width: 40px;
   height: 38px;
@@ -123,6 +127,10 @@
     letter-spacing: -0.07em;
     padding-top: 40px;
   }
+  .steps-item::before {
+    width: 46px;
+    height: 44px;
+  }
   .photo-girl {
     flex-shrink: 0;
   }
@@ -134,9 +142,6 @@
   .steps-item {
     max-width: 275px;
   }
-  .steps-list :not(:first-child):not(:last-child) {
-    max-width: 219px;
-  }
 }
 /* ==================DESKTOP MEDIA==================*/
 @media screen and (min-width: 1280px) {
@@ -147,7 +152,6 @@
     width: 100%;
     padding-top: 40px;
     padding-left: 80px;
-    padding-right: 80px;
     gap: 110px;
     justify-content: space-evenly;
     background-position: -11px -17px;
@@ -172,9 +176,9 @@
     max-width: 349px;
   }
   .steps-text {
-    max-width: 289px;
+    max-width: 300px;
   }
-  .steps-list :not(:first-child):not(:last-child) {
-    max-width: 219px;
+  .steps-text.second {
+    max-width: 169px;
   }
 }
