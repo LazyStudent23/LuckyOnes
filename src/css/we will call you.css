@@ -48,6 +48,7 @@
   border: none;
   padding: 0;
   margin-bottom: 40px;
+  z-index: -1;
 }
 
 .callu-input {
