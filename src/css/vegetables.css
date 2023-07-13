@@ -1,0 +1,370 @@
+.vegetables {
+  margin: 0 auto;
+  background: #fff;
+  margin-top: 80px;
+}
+.vegetables-container {
+  max-width: 335px;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+.organic-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+.organic-title {
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+}
+.vegetable-text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+}
+.vegetables-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.vegetable-item {
+  background-color: #eaf7e5;
+  /* width: 335px; */
+  min-height: 443px;
+  border-radius: 20px;
+}
+.vegetable-title-card {
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  margin-top: 40px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+.vegetable-card-text {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+  margin-left: 20px;
+}
+
+.vegetable-img-carrot {
+  margin: 40px 25px 0 18px;
+}
+.vegetable-img-brussel {
+  margin: 36px 54px 0 51px;
+}
+.vegetable-img-tomato {
+  margin: 52px 30px 0 27px;
+}
+.vegetable-img-eggplant {
+  margin: 44px 72px 0 69px;
+}
+.vegetable-img-potatoes {
+  margin: 44px 22px 0 10px;
+}
+.vegetable-img-leek {
+  margin: 34px 26px 0 25px;
+}
+.vegetable-img-mushrooms {
+  margin: 48px 7px 0 0;
+}
+.vegetable-img-corn {
+  margin: 36px 43px 0 27px;
+}
+.vegetable-img-radish {
+  margin: 17px 40px 0 33px;
+}
+.vegetable-shadow {
+  fill: #141414;
+  margin: -31px 74px 6px 66px;
+}
+.vegetable-shadow-brussel {
+  fill: #141414;
+  margin: -43px 72px 15px 68px;
+}
+.vegetable-shadow-tomato {
+  fill: #141414;
+  margin: -5px 72px 15px 68px;
+}
+
+.vegetable-shadow-eggplant {
+  fill: #141414;
+  margin: -25px 72px 16px 68px;
+}
+.vegetable-shadow-potatoes {
+  fill: #141414;
+  margin: -17px 72px 22px 68px;
+}
+.vegetable-shadow-leek {
+  fill: #141414;
+  margin: -16px 71px 22px 69px;
+}
+.vegetable-shadow-mushrooms {
+  fill: #141414;
+  margin: -15px 72px 22px 68px;
+}
+.vegetable-shadow-corn {
+  fill: #141414;
+  margin: -19px 74px 18px 66px;
+}
+.vegetable-shadow-radish {
+  fill: #141414;
+  margin: 0 99.5px 18px 94.5px;
+}
+.price-text {
+  color: #141414;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.vegetable-item-radish {
+  display: none;
+}
+
+.order-btn {
+  max-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 4px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 8px 26px 7px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  background-color: #fc8a11;
+  border: none;
+  fill: #fff;
+}
+.order-icon {
+  max-height: 14px;
+  align-self: flex-end;
+}
+.order-text {
+  transform: rotate(-14deg);
+}
+@media screen and (min-width: 375px) {
+  .vegetables-container {
+    padding: 0 20px;
+  }
+  .vegetable-img-carrot {
+    margin: 40px 25px 0 18px;
+  }
+  .vegetable-img-potatoes {
+    margin: 44px 22px 0 19px;
+  }
+  .vegetable-img-mushrooms {
+    margin: 48px 7px 0 3px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .vegetables {
+    margin-top: 101px;
+  }
+  .vegetables-container {
+    max-width: 768px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+  .organic-title {
+    font-size: 28px;
+    line-height: 1.35;
+    letter-spacing: -1.12px;
+  }
+  .vegetable-text {
+    max-width: 562px;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+  .vegetables-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .vegetable-item {
+    width: 342px;
+    min-height: 465px;
+  }
+  .vegetable-title-card {
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+    margin-top: 64px;
+    margin-left: 24px;
+  }
+  .vegetable-card-text {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.36px;
+    margin-left: 24px;
+  }
+  .vegetable-img-carrot {
+    margin: 0 10px 0 11px;
+  }
+  .vegetable-img-brussel {
+    margin: 0 45px 0 31px;
+  }
+  .vegetable-img-tomato {
+    margin: 24px 27px 0 18px;
+  }
+  .vegetable-img-eggplant {
+    margin: 6px 70px 0 50px;
+  }
+  .vegetable-img-potatoes {
+    margin: 16px 0 0 0;
+  }
+  .vegetable-img-leek {
+    margin: 6px 22px 0 12px;
+  }
+  .vegetable-img-mushrooms {
+    margin: 20px 0 0 0;
+  }
+  .vegetable-img-corn {
+    margin: 6px 28px 0 7px;
+  }
+
+  .vegetable-shadow {
+    margin: -30px 73px 28px 74px;
+  }
+  .vegetable-shadow-brussel {
+    margin: -43px 80px 32px 67px;
+  }
+  .vegetable-shadow-tomato {
+    margin: -6px 78px 27px 69px;
+  }
+  .vegetable-shadow-eggplant {
+    margin: -10px 82px 32px 65px;
+  }
+  .vegetable-shadow-potatoes {
+    margin: -17px 74px 32px 73px;
+  }
+  .vegetable-shadow-leek {
+    margin: -15px 79px 32px 68px;
+  }
+  .vegetable-shadow-mushrooms {
+    margin: -14px 75px 32px 72px;
+  }
+  .vegetable-shadow-corn {
+    margin: -20px 84px 32px 63px;
+  }
+
+  .price-text {
+    margin-left: 24px;
+    margin-bottom: 24px;
+  }
+  .order-btn {
+    min-width: 114px;
+    height: 114px;
+    padding: 38px 17px 38.92px 18px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+    margin-top: 40px;
+  }
+  @media screen and (min-width: 1280px) {
+    .vegetables {
+      margin-top: 124px;
+    }
+    .vegetables-container {
+      max-width: 1280px;
+    }
+    .organic-title {
+      font-size: 40px;
+      line-height: 1.1;
+      letter-spacing: -1.6px;
+    }
+    .vegetables-list {
+      gap: 24px;
+    }
+    .vegetable-item {
+      width: 389px;
+    }
+    .vegetable-item-radish {
+      display: block;
+      background-color: #eaf7e5;
+      border-radius: 25px;
+      max-height: 465px;
+    }
+    .vegetable-img-carrot {
+      margin: -9px 34px 0 34px;
+    }
+    .vegetable-img-brussel {
+      margin: -8px 69px 0px 54px;
+    }
+    .vegetable-img-tomato {
+      margin: 18px 51px 0 41px;
+    }
+    .vegetable-img-eggplant {
+      margin: 0 84px 0 83px;
+    }
+    .vegetable-img-potatoes {
+      margin: 10px 27px 0 23px;
+    }
+    .vegetable-img-leek {
+      margin: 0 47px 0 34px;
+    }
+    .vegetable-img-mushrooms {
+      margin: 14px 20px 0 16px;
+    }
+    .vegetable-img-corn {
+      margin: 0 63px 0 40px;
+    }
+    .vegetable-shadow {
+      margin: -32px 97px 32px 97px;
+    }
+    .vegetable-shadow-brussel {
+      margin: -43px 80px 36px 67px;
+    }
+    .vegetable-shadow-tomato {
+      margin: -4px 102px 25px 92px;
+    }
+    .vegetable-shadow-eggplant {
+      margin: -10px 97px 32px 97px;
+    }
+    .vegetable-shadow-potatoes {
+      margin: -18px 99px 32px 95px;
+    }
+    .vegetable-shadow-leek {
+      margin: -13px 103px 30px 91px;
+    }
+    .vegetable-shadow-mushrooms {
+      margin: -14px 99px 32px 95px;
+    }
+    .vegetable-shadow-corn {
+      margin: -18px 108px 30px 86px;
+    }
+    .price-text {
+      font-size: 18px;
+      line-height: 1.33;
+      letter-spacing: -0.72px;
+    }
+  }
+}

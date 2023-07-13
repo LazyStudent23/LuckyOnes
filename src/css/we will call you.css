@@ -43,7 +43,7 @@
 .callu-fieldset {
   display: block;
   position: relative;
-  width: 335px;
+  /* width: 335px; */
   overflow: hidden;
   border: none;
   padding: 0;
@@ -93,6 +93,10 @@
   position: relative;
   display: flex;
   justify-content: center;
+}
+.callu-background-img {
+  position: relative;
+  z-index: -1;
 }
 
 .callu-broccoli-img {
