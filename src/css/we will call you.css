@@ -8,6 +8,7 @@
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 80px;
+  margin-top: 80px;
 }
 .callu-text-container {
   padding-left: 6px;
@@ -36,7 +37,7 @@
   line-height: 1.28;
   letter-spacing: -0.56px;
   margin-bottom: 40px;
-  width: 321px;
+  width: 320px;
 }
 
 .callu-fieldset {
@@ -50,7 +51,7 @@
 }
 
 .callu-input {
-  width: 335px;
+  width: 310px;
   height: 48px;
   border-radius: 100px;
   border: 1px solid #141414;
@@ -97,7 +98,7 @@
 .callu-broccoli-img {
   width: 335px;
   position: absolute;
-  bottom: 4px;
+  bottom: 0;
   right: 0;
 }
 
@@ -112,6 +113,7 @@
   .callu-container {
     max-width: 768px;
     margin-bottom: 173px;
+    margin-top: 100px;
   }
 
   .callu-title {
@@ -168,6 +170,7 @@
     max-width: 1280px;
     margin-bottom: 124px;
     padding: 0 32px;
+    margin-top: 124px;
   }
 
   .callu-title {
