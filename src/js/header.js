@@ -1,41 +1,14 @@
-const hamb = document.querySelector("#hamb");
-const jshamb = document.querySelector("#jshamb");
-const body = document.body;
+(() => {
+  const refs = {
+    openMenuBtn: document.querySelector('[data-menu-open]'),
+    closeMenuBtn: document.querySelector('[data-menu-close]'),
+    modal: document.querySelector('[data-menu]'),
+  };
 
-// Клонируем меню, чтобы задать свои стили для мобильной версии
-const menu = document.querySelector("#menu").cloneNode(1);
+  refs.openMenuBtn.addEventListener('click', toggleMenu);
+  refs.closeMenuBtn.addEventListener('click', toggleMenu);
 
-// При клике на иконку hamb вызываем ф-ию hambHandler
-hamb.addEventListener("click", hambHandler);
-
-// Выполняем действия при клике ..
-function hambHandler(e) {
-  e.preventDefault();
-  // Переключаем стили элементов при клике
-  jshamb.classList.toggle("open");
-  hamb.classList.toggle("active");
-  body.classList.toggle("noscroll");
-  renderPopup();
-}
-
-// Здесь мы рендерим элементы
-function renderPopup() {
-  jshamb.appendChild(menu);
-}
-
-// Код для закрытия меню при нажатии на ссылку
-const links = Array.from(menu.children);
-
-// Для каждого элемента меню при клике вызываем ф-ию
-links.forEach((link) => {
-  link.addEventListener("click", closeOnClick);
-});
-
-// Закрытие при клике на меню
-function closeOnClick() {
-  jshamb.classList.remove("open");
-  hamb.classList.remove("active");
-  body.classList.remove("noscroll");
-}
-
-//-----------------------------------------------------------------
+  function toggleModal() {
+    refs.menu.classList.toggle('is-hidden');
+  }
+})();
