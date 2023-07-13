@@ -36,13 +36,13 @@
   line-height: 1.28;
   letter-spacing: -0.56px;
   margin-bottom: 40px;
-  width: 321px;
+  width: 320px;
 }
 
 .callu-fieldset {
   display: block;
   position: relative;
-  width: 335px;
+  /* width: 335px; */
   overflow: hidden;
   border: none;
   padding: 0;
@@ -50,7 +50,7 @@
 }
 
 .callu-input {
-  width: 335px;
+  width: 310px;
   height: 48px;
   border-radius: 100px;
   border: 1px solid #141414;
@@ -93,12 +93,17 @@
   display: flex;
   justify-content: center;
 }
+.callu-background-img {
+  position: relative;
+  z-index: -1;
+}
 
 .callu-broccoli-img {
-  width: 335px;
+  width: 320px;
   position: absolute;
   bottom: 4px;
   right: 0;
+  z-index: -1;
 }
 
 .callu-desctop-container {
@@ -147,6 +152,8 @@
   .callu-background-img {
     width: 704px;
     height: 463px;
+    position: relative;
+    z-index: -1;
   }
 
   .callu-broccoli-img {
@@ -201,6 +208,8 @@
   .callu-background-img {
     width: 525px;
     height: 536px;
+    position: relative;
+    z-index: -1;
   }
   .callu-text-container {
     padding: 0;
